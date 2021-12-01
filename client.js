@@ -16,14 +16,15 @@ conn.on('connect', () => {
 });
 
 
-// conn.on('connect',()=>{
+/*conn.on('connect',()=>{
 
-// setTimeout(()=>{conn.write("Move: up");},50)
-// setTimeout(()=>{conn.write("Move: up");},100)
-// setTimeout(()=>{conn.write("Move: up");},150)
-// setTimeout(()=>{conn.write("Move: up");},200)
-// setTimeout(()=>{conn.write("Move: up");},250)
-// });
+setTimeout(()=>{conn.write("Move: up");},50)
+setTimeout(()=>{conn.write("Move: right");},150)
+setTimeout(()=>{conn.write("Move: left");},200)
+setTimeout(()=>{conn.write("Move: up");},250)
+setTimeout(()=>{conn.write("Move: left");},300)
+setTimeout(()=>{conn.write("Move: right");},350)
+});*/
 
 
 //event handler to get data from server
