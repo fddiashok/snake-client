@@ -32,6 +32,9 @@ const handleUserInput = function (key) {
   if (key === 's')
     // console.log("Move: down");
     connection.write("Move: down");
+
+  if(key==='h')
+  connection.write("Say: hi");
 };
 
 
