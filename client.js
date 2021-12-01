@@ -16,6 +16,16 @@ conn.on('connect', () => {
 });
 
 
+// conn.on('connect',()=>{
+
+// setTimeout(()=>{conn.write("Move: up");},50)
+// setTimeout(()=>{conn.write("Move: up");},100)
+// setTimeout(()=>{conn.write("Move: up");},150)
+// setTimeout(()=>{conn.write("Move: up");},200)
+// setTimeout(()=>{conn.write("Move: up");},250)
+// });
+
+
 //event handler to get data from server
 conn.on('data',(data)=>{
   console.log(data);
